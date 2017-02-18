@@ -58,19 +58,19 @@ function Delete_Table_Field(DB, Table, Name) {
     return OBJ;
 }
 
-console.log('Add_Table_/添加空表');
+console.log('Add_Table');
 console.log(Add_Table('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Table'));
-console.log('Add_Table_Data/添加空记录');
+console.log('Add_Table_Data');
 console.log(Add_Table_Data('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Users'));
-console.log('Add_Field_Name/添加字段名');
+console.log('Add_Field_Name');
 console.log(Add_Field_Name('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Users', 'Hello'));
-console.log('Add_Field_Value/添加字段值');
+console.log('Add_Field_Value');
 console.log(Add_Field_Value('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Users', 0, 'Name', 'Value'));
-console.log('Query_Value/查询字段值');
+console.log('Query_Value');
 console.log(Query_Value('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', "Users", 0, "ID"));
-console.log('Delete_Table/删除表');
+console.log('Delete_Table');
 console.log(Delete_Table('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Table'));
-console.log('Delete_Table_Data/删除记录');
+console.log('Delete_Table_Data');
 console.log(Delete_Table_Data('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Users', 0));
-console.log('Delete_Table_Field/删除字段');
+console.log('Delete_Table_Field');
 console.log(Delete_Table_Field('{"Config": [{"Name": "MyDB","Code": "UTF-8","Library": "./" }],"Users": [{"ID": "Root","Password": "Root","Jurisdiction": "ROOT"},{"ID": "Guest","Password": "Guest","Jurisdiction": "GUEST"}]}', 'Users', 'Password'));
